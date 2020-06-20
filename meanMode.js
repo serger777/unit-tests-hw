@@ -51,7 +51,6 @@ function meanMode(numbers) {
             return false;
         }
     }
-
     return max.key === mean;
 
 }

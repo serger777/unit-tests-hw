@@ -18,7 +18,6 @@
  */
 function getMinMax(input) {
     const parsed = input.split(/[,\s]/);
-
     const numbers = parsed
         .map(value => parseFloat(value))
         .filter(value => !Number.isNaN(value));

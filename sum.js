@@ -17,7 +17,6 @@ function sum(x) {
     }
 
     let currentSum = Number(x);
-
     function plus(y) {
         if (y === undefined) {
             return currentSum;
