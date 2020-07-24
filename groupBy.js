@@ -12,7 +12,7 @@
  */
 const groupBy = (fn, obj) => {
     const result = {};
-    const keys = objectKeys(obj);
+    const keys = Object.keys(obj);
 
     for (let i = 0; i < keys.length; i++) {
         const key = keys[i];
@@ -24,8 +24,8 @@ const groupBy = (fn, obj) => {
 
         result[groupValue].push(obj[key]);
     }
-
     return result;
+
 };
 
 module.exports = { groupBy };

@@ -36,7 +36,6 @@ function getIntersection(first, second) {
         return 0;
     }
 
-    console.log(arr.sort(sortRules));
     return arr.sort(sortRules);
 }
 
